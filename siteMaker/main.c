@@ -9,8 +9,7 @@ int main ()
 {
     header();
     char* query = getenv("QUERY_STRING");
+    char* cmd = malloc(200);
     
-
-
     return 0;
 }
